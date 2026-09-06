@@ -8,7 +8,7 @@
 <body>
     <form action="for.php" method="post">
         <label for="number">Number</label>
-        <input type="number" placeholder="choisir un mnembre" name="number">
+        <input type="number" placeholder="choisir un nombre" name="number">
         <input type="submit" value="calculer">
     </form>
     <br>
@@ -46,20 +46,38 @@
 
 
 
-echo"Les nombres pairs" ." <br>";
+// echo"Les nombres pairs" ." <br>";
 
-for($i = 1; $i <=40; $i++){
-    if($i % 2 == 0){
-        echo $i ."<br>";
-    }
-}
+// for($i = 1; $i <=40; $i++){
+//     if($i % 2 == 0){
+//         echo $i ."<br>";
+//     }
+// }
 
-echo"Les nombres impairs " ."<br>";
+// // echo"Les nombres impairs " ."<br>"; 
 
-for($i = 1; $i <=40; $i++){
-    if($i % 2 !== 0){
-        echo $i ."<br>";
-    }
+// for($i = 1; $i <=40; $i++){
+//     if($i % 2 !== 0){
+//         echo $i ."<br>";
+//     }
+// }
+
+// for ($i = 1; $i <= 40; $i++) {
+//     // Si le nombre est pair
+//     if ($i % 2 == 0) {
+//         echo $i . " est pair<br>";
+//     } 
+//     // Sinon (si le reste n'est pas 0, c'est obligatoirement impair)
+//     else {
+//         echo $i . " est impair<br>";
+//     }
+// }
+
+// echo "Table de multiplication <br>";
+$table = $_POST['number'];
+
+for( $i =1 ; $i <= 10; $i++){
+    echo $table. " x " .$i ."=" .$table * $i ."<br>";
 }
 
 ?>
