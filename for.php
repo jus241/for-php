@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <form action="for.php" method="post">
         <label for="number">Number</label>
@@ -13,6 +15,7 @@
     </form>
     <br>
 </body>
+
 </html>
 
 <?php
@@ -74,10 +77,72 @@
 // }
 
 // echo "Table de multiplication <br>";
-$table = $_POST['number'];
+// $table = $_POST['number'];
 
-for( $i =1 ; $i <= 10; $i++){
-    echo $table. " x " .$i ."=" .$table * $i ."<br>";
-}
+// for( $i =1 ; $i <= 10; $i++){
+//     echo $table. " x " .$i ."=" .$table * $i ."<br>";
+// }
+
+$table = 1;
+
+// for ($i =1 ; $i <= 10; $table++) {
+//     for ($j = 1; $j <= 10; $j++) {
+//         echo $table . " x " . $j . " = " . $table * $j . "<br>";
+//     }
+// }
+
+
+// for($i = 1; $i <= 10; $i++){
+//     if($i % 2 !==0){
+//         echo $i ." est pair <br>";
+//     }else{
+//         echo $i ." est impair <br>";
+//     }
+// }
+
+
+
+// for ($i = 1; $i <= 100; $i++) {
+//     if ($i % 3 == 0 && $i % 5 == 0) {
+//         echo  $i ." il est divisible par 3 et 5 <br>" ;
+//     } elseif ($i % 5 == 0) {
+//         echo $i ." il est divisible par 5 <br>";
+//     }elseif($i % 3 == 0){
+//         echo $i ." il est divisible par 3 <br>";
+//     } else{
+//         echo $i ."Non divisible <br>";
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ?>
