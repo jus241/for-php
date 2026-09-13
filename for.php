@@ -133,9 +133,54 @@ $table = 1;
 // if ($elements % 2 ==0){
 // echo $elements . "<br>";
 // }};
+// $nombres = [10, 20, 5, 15, 30];
+
+// $somme = 0;
+
+// foreach($nombres as $elements){
+//     echo $elements + $somme;
+// }
+
+// $nombres = [10, 20, 5, 15, 30];
+
+// $somme = 0;
+
+// foreach($nombres as $elements){
+
+//     $somme = $somme + $elements;
+// }
+
+// echo "Somme : " . $somme;
+
+// $nombres = [10, 20, 5, 15, 30];
+
+// $somme = 0;
+
+// foreach($nombres as $elements){
+//     $somme = $somme + $elements;
+// }
+// echo "la somme :" . "<br>";
+
+// $notes = [12, 15, 8, 17, 10];
+// $sommeDeNote = 0;
+
+// foreach ($notes as $elements) {
+
+//       $sommeDeNote = $sommeDeNote + $elements;
+
+//     if ($elements >= 10) {
+//         echo "Note validée : " . $elements . "<br>";
+//     } else {
+//         echo "Note non validée : " . $elements . "<br>";
+//     }
+// }
+
+// echo "Somme totale : " . $sommeDeNote;
 
 
+// $Moyenne = $sommeDeNote / 5;
 
+// echo "la moyenne " . $Moyenne;
 
 
 
