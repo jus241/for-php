@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <form action="for.php" method="post">
-        <label for="number">Number</label>
-        <input type="number" placeholder="choisir un nombre" name="number">
-        <input type="submit" value="calculer">
-    </form>
-    <br>
-</body>
-
-</html>
 
 <?php
 //nembre dans lordre
@@ -183,18 +165,30 @@ $table = 1;
 // echo "la moyenne " . $Moyenne;
 
 
+// Exercice 1 — Tableau associatif
+
+// $eleve = [
+//     "nom" => "G-24",
+//     "age" => 18,
+//     "filiere" =>  "DMW",    
+// ];
+
+// foreach($eleve as $cle => $valeur){
+//     echo $cle . " : " .$valeur;
+// }
 
 
+// Exercice 2 — Informations d'une filière
+$filiere = [
+    "nom" => "Développement Multimédia Web",
+    "sigle" => "DMW",
+    "duree" => 3,
+    "diplome" => "Baccalauréat Technique",
+];
 
-
-
-
-
-
-
-
-
-
+foreach ($filiere as $cle => $valeur) {
+    echo $cle . " : " . $valeur . "<br>";
+}
 
 
 
