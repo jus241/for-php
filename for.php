@@ -114,9 +114,25 @@ $table = 1;
 //     }
 // }
 
+// $somme = 0;
+
+// for ($i = 1; $i <= 100; $i++) {
+//     $somme = $somme + $i;
+// }
+
+// echo "La somme est : " . $somme;
+
+// $fruits = ["pomme" , "banane", "orange"];
+
+// echo $fruits[1];
 
 
+// $nombres = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+// foreach ($nombres as $elements){
+// if ($elements % 2 ==0){
+// echo $elements . "<br>";
+// }};
 
 
 
