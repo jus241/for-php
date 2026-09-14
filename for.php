@@ -179,25 +179,82 @@ $table = 1;
 
 
 // Exercice 2 — Informations d'une filière
-$filiere = [
-    "nom" => "Développement Multimédia Web",
-    "sigle" => "DMW",
-    "duree" => 3,
-    "diplome" => "Baccalauréat Technique",
-];
+// $filiere = [
+//     "nom" => "Développement Multimédia Web",
+//     "sigle" => "DMW",
+//     "duree" => 3,
+//     "diplome" => "Baccalauréat Technique",
+// ];
 
-foreach ($filiere as $cle => $valeur) {
-    echo $cle . " : " . $valeur . "<br>";
+// foreach ($filiere as $cle => $valeur) {
+//     echo $cle . " : " . $valeur . "<br>";
+// }
+
+// $notes = [12, 15, 9, 14, 16 , 33, 34, 55, 03];
+
+// $somme = 0;
+// foreach($notes as $nombre){
+//     $somme = $somme + $nombre;
+//     }
+//     echo "la somme des notes: " .$somme ."<br>";
+//     $moyenne  =$somme / count($notes);
+//     echo "la moyenne est de : " .$moyenne;
+
+// Exercice 4 — Notes + foreach + if → Admis / Échec ← on est ici
+
+// $notes = [12, 15, 9, 14, 16, 7, 18];
+
+// foreach($notes as $nombre){
+//     if ($nombre >= 10) {
+//         echo "Note" . $nombre . " est admis <br>";
+//     }else {
+//          echo "Note" . $nombre . " Échec <br>";
+//     }
+// }
+
+// $notes = [12, 15, 9, 14, 16, 7, 18];
+// $admis = 0;
+// $echecs = 0;
+// foreach ($notes as $nombre){
+
+//     if ($nombre >= 10) {
+//          $admis = $admis + 1;
+//     } else {
+//           $echecs = $echecs + 1;
+//     }
+
+// }
+// echo "Nombre d'admis"  . $admis. "<br>";
+// echo "Nombre echecs" . $echecs . "<br>";
+
+// $notes = [12, 15, 9, 14, 16, 7, 18];
+
+// $meilleureNote = 0;
+
+// foreach($notes as $nombre){
+
+//     if($nombre > $meilleureNote){
+//         $meilleureNote = $nombre;
+//     }
+
+// }
+// echo "La meilleure note est : " . $meilleureNote;
+// On clôture donc le chapitre Tableaux (array). Tu as maintenant vu :
+
+// array → foreach → tableaux associatifs → accumulation → count() → conditions avec les tableaux.
+
+// les Fonctions
+
+// function direBonjour(){
+//     echo"Bienvenue dans mon programme PHP !";
+// }
+
+// direBonjour()
+
+function saluer($g_24){
+echo "Bonjour " . $g_24;
 }
-
-
-
-
-
-
-
-
-
+saluer("G-24");
 
 
 ?>
