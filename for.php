@@ -65,7 +65,7 @@
 //     echo $table. " x " .$i ."=" .$table * $i ."<br>";
 // }
 
-$table = 1;
+// $table = 1;
 
 // for ($i =1 ; $i <= 10; $table++) {
 //     for ($j = 1; $j <= 10; $j++) {
@@ -251,10 +251,37 @@ $table = 1;
 
 // direBonjour()
 
-function saluer($g_24){
-echo "Bonjour " . $g_24;
+// function saluer($g_24){
+// echo "Bonjour " . $g_24;
+// }
+// saluer("G-24");
+
+// $number1 = 10; 
+// $number2 = 5; 
+
+// function additionner($number1, $number2){
+// echo "la somme est :  " . ($number1 + $number2);
+// }
+// additionner( 10, 5);
+
+
+// function calculerCarre($number){
+//     return($number * $number);
+// }
+
+// $resultat = calculerCarre(5);
+
+// echo $resultat;
+
+
+function verifierAge($age){
+    if ( $age >= 18) {
+        return "Majeur";
+    }else{
+        return "Mineur";
+    }
+
 }
-saluer("G-24");
-
-
+    $resultat = verifierAge(16);
+    echo $resultat;
 ?>
